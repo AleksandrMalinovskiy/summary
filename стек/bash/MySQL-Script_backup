@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#Задание
+#Написать скрипт бекапа потаблично с указанием позиции бинлога
 directory="/root/Mysql/backup/"
 fdate=`date +%Y-%m-%d`
 pass="Testpass1$"
