@@ -28,7 +28,7 @@ ____
 - Bash; 
 - Prometheus, Grafana; 
 - ELK;
-- Сети.
+- Сети(dunp, ip, iptables).
 ____
 **Опыт работы (более 6 лет):**
   
