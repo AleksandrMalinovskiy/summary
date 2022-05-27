@@ -1,1 +1,18 @@
-
+#!/bin/bash
+sqlite3 test.db 'SELECT url, bt FROM test WHERE bt='5';' > testBD.txt
+sed -i "s/.\{,3\}$//" testBD.txt
+sort testBD.txt | uniq > testBD2.txt
+rm testBD.txt
+for name in $(cat testBD2.txt) ;
+do
+  for ses in $(grep $name test.txt | wc -l) 
+  do
+  echo "$name $ses" >> testBD.txt 
+  done 
+done
+sed -i '/0/d' testBD.txt
+# можно убрать ключь -i и тогда на экране сразу появиться результат.
+rm testBD2.txt
+cat testBD.txt
+#итоговый результат выводится на экран с файла, 
+#а так же записан в файл
