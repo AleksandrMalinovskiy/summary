@@ -25,7 +25,7 @@ ____
 - [Python](https://stepik.org/course/58852/syllabus); 
 - Ansible; 
 - Nginx, Apache; 
-- [Docker](/стекDocker);  
+- [Docker](/стек/Docker);  
 - [Bash](/стек/bash); 
 - Prometheus, Grafana; 
 - ELK;
