@@ -1,0 +1,101 @@
+#!/bin/bash
+if
+whoami | grep root > /dev/null 
+[ "$?" -eq 1 ];
+        then
+        read -p "Login as root to disable Selinux.Enter mode root?(yes/no)" r
+        if
+        [ "$r" = yes ];
+        then
+                su
+                echo "Mode root"
+        elif
+        [ "$r" = no ];
+        then
+                echo "Selinux worcing"
+	exit
+	fi
+fi
+if
+cat /etc/selinux/config | grep SELINUX=disabled > /dev/null
+[ "$?" -eq 0 ];
+	then
+        read -p "Selinux is disable permanent, Enabled?(yes/no)(enter help for help)" two
+                if
+                        [ "$two" = yes ];
+                then
+                        sed -i 7s/disabled/enforcing/ /etc/selinux/config
+                        echo "Selinux is enabled";
+                elif
+                        [ "$two" = no ];
+                then
+                        echo "Selinux no working"
+                elif
+                        [ "$two" = help ];
+                then
+                        cat /etc/selinux/config
+                fi
+exit
+fi
+
+if
+sestatus | grep 'Current mode:                   enforcing' > /dev/null
+[ "$?" -eq 0 ];
+then
+        cat /etc/selinux/config | grep SELINUX=enforcing > /dev/null
+        
+	if
+	[ "$?" -eq 0 ];
+        then
+        read -p "Disable (1)temporarily or (2)permanently? (1/2)(enter help for help)" tp
+                if [ "$tp" = 2 ];
+                then
+                cat /etc/selinux/config | grep SELINUX=enforcing > /dev/null
+
+                        if  [ "$?" -eq 0 ];
+                        then
+                        read -p "Selinux is enabled ,Disable permanently?(yes/no)(enter help for help)" one
+                                if
+                                         [ "$one" = yes ];
+                                then
+                                        sed -i 7s/enforcing/disabled/ /etc/selinux/config
+                                        echo "Selinux is disabled"
+                                exit
+                                elif
+                                        [ "$one" = no ];
+                                then
+                                        echo "Selinux working"
+                                elif
+                                        [ "$one" = help ];
+                                then
+                                        cat /etc/selinux/config
+                                fi
+                        fi
+                elif
+                [ "$tp" = 1 ];
+                then
+               	 	setenforce 0
+                	echo "Selinux disable temporarily"
+		elif 
+			[ "$tp" = help ]
+		then
+			sestatus	
+                exit
+                fi
+        fi
+elif
+[ "$?" -eq 1 ]
+then  
+	read -p "Selinux disable temporarily.Enable?(yes/no)" dt 
+	if 
+		[ "$dt" = yes ];
+	then
+		setenforce 1
+		echo "Selinux Enable"
+	elif
+		[ "$dt" = no ];
+	then
+		echo "Selinux disable temporarily"
+	fi
+fi
+
