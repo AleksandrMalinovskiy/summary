@@ -21,7 +21,7 @@ ____
 **Навыки**\
 Владею следующим стеком технологий:
 - MySQL; 
-- [Git](summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/Git);
+- [Git](summary/стек/Git/);
 - [Python](https://stepik.org/course/58852/syllabus); 
 - Ansible; 
 - Nginx, Apache; 
