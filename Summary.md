@@ -20,12 +20,12 @@ ____
 **Навыки**\
 Владею следующим стеком технологий:
 - MySQL; 
-- [Git](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/Git) 
+- [Git](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/Git);
 - Python; 
 - Ansible; 
 - Nginx, Apache; 
 - Docker;  
-- Bash; 
+- [Bash](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/bash); 
 - Prometheus, Grafana; 
 - ELK;
 - Сети(dunp, ip, iptables).
