@@ -1,0 +1,120 @@
+# Установка Docker
+
+yum install -y yum-utils ;
+yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo ;
+    
+yum install docker-ce docker-ce-cli containerd.io
+
+systemctl start docker
+
+# Проверим статус
+systemctl status docker
+
+# Отключаем firewalld
+systemctl stop firewalld
+systemctl disable firewalld
+
+# Поищем nginx
+sudo docker search nginx
+
+# Скачаем образ
+sudo docker pull nginx
+
+# Запустим контейнер
+docker run -d --name nginx -p 80:80 -v /root/conf.d:/etc/nginx/conf.d  nginx
+
+# Проверяю запустился ли контейнер
+sudo docker ps
+
+#Смотрю ip адресс сети 
+ip addr
+
+# В директории /root/conf.d/ создаю файл doker-nginx.conf, для подключения nginx-apache и балансировки, со следующим наполнением 
+upstream backend {
+	server 127.0.0.1:8080 weight=2;
+	server 127.0.0.1:8081;
+	server 127.0.0.1:8082;
+}
+server {
+        listen       80;
+        server_name  _;
+                location / {
+                        proxy_pass http://192.168.0.104:8080;
+                        proxy_set_header Host $host;
+                        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                        proxy_set_header X-Real-IP $remote_addr;
+                }
+}
+
+# Установка Apache
+yum install httpd
+
+# Отключаем SELinux
+setenforce 0
+
+# Меняем порт apache httpd.conf
+
+Listen 8080;
+
+# Запуск Apache
+systemctl start httpd
+
+
+# Автозапуск Apache
+systemctl enable httpd
+
+
+# Проверка статуса
+systemctl status httpd
+
+# Заходим в файл welcome.conf в дериктории etc/http/conf.d и добавляем следующее
+<VirtualHost *:8080>
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+
+	ErrorLog /var/log/httpd/error.log
+	CustomLog /var/log/httpd/access.log combined
+
+</VirtualHost>
+
+####################################################
+
+Listen 8081
+<VirtualHost *:8081>
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html1
+
+	ErrorLog /var/log/httpd/error1.log
+	CustomLog /var/log/httpd/access1.log combined
+
+</VirtualHost>
+
+####################################################
+
+Listen 8082
+<VirtualHost *:8082>
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html2
+
+	ErrorLog /var/log/httpd/error2.log
+	CustomLog /var/log/httpd/access2.log combined
+
+</VirtualHost>
+ 
+# Перезаписываем apache и смотрим ошибки, сокеты  
+apachectl -t
+ss -ntlp
+systemctl reload httpd
+
+# Заходим в /var/www/html /var/www/html1  /var/www/html2 создаем файлы index.html они  являются верстками для страниц apache 1/2/3 (они нужны для наглядного убеждения что работатет балансировка)
+# Обращаемся несколько раз к порту и видим разные ответы
+curl 192.168.0.116 
+
