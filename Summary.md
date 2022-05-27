@@ -28,7 +28,7 @@ ____
 - [Bash](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/bash); 
 - Prometheus, Grafana; 
 - ELK;
-- Сети(dunp, ip, iptables).
+- [Сети(dunp, ip, iptables)](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/%D1%81%D0%B5%D1%82%D0%B8).
 ____
 **Опыт работы (более 6 лет):**
   
