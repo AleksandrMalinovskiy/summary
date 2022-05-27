@@ -27,7 +27,8 @@ ____
 - Docker;  
 - Bash; 
 - Prometheus, Grafana; 
-- ELK; 
+- ELK;
+- Сети.
 ____
 **Опыт работы (более 6 лет):**
   
