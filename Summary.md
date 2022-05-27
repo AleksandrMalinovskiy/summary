@@ -25,11 +25,11 @@ ____
 - [Python](https://stepik.org/course/58852/syllabus); 
 - Ansible; 
 - Nginx, Apache; 
-- [Docker](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/Docker);  
-- [Bash](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/bash); 
+- [Docker](/стекDocker);  
+- [Bash](/стек/bash); 
 - Prometheus, Grafana; 
 - ELK;
-- [Сети(dunp, ip, iptables)](https://github.com/AleksandrMalinovskiy/summary/tree/main/%D1%81%D1%82%D0%B5%D0%BA/%D1%81%D0%B5%D1%82%D0%B8).
+- [Сети(dunp, ip, iptables)](/стек/сети).
 ____
 **Опыт работы (более 6 лет):**
   
