@@ -1,0 +1,83 @@
+
+
+
+#####################################################
+# На Мастере
+#####################################################
+systemctl stop firewalld
+
+# Выясняем временный пароль
+grep "A temporary password" /var/log/mysqld.log
+
+# Запускаем скрипт безопасности для MySQL
+mysql_secure_installation
+
+# Заходим с паролем
+mysql -uroot -p
+
+# Найти server_id
+SELECT @@server_id;
+
+# Создаём пользователя для реплики
+CREATE USER repl@'%' IDENTIFIED WITH 'caching_sha2_password' BY '123qweASD/';
+
+# Даём ему права на репликацию
+GRANT REPLICATION SLAVE ON *.* TO repl@'%';
+
+# Смотрим пользователей
+SELECT User, Host FROM mysql.user;
+
+# Смотрим статус Мастера
+SHOW MASTER STATUS;
+
+######################################################
+# На Слейве
+######################################################
+
+# Отключаем firewalld
+systemctl stop firewalld
+
+
+# Выясняем временный пароль
+grep "A temporary password" /var/log/mysqld.log
+
+# Запускаем скрипт безопасности для MySQL
+mysql_secure_installation
+
+nano /etc/my.cnf
+
+server_id = 2
+
+systemctl restart mysqld
+
+# Заходим с паролем
+mysql -uroot -p
+
+# Найти server_id
+SELECT @@server_id;
+
+
+CHANGE MASTER TO MASTER_HOST='192.168.0.113', MASTER_USER='repl', MASTER_PASSWORD='123qweASD/', MASTER_LOG_FILE='binlog.000001', MASTER_LOG_POS=1358, GET_MASTER_PUBLIC_KEY = 1;
+
+START SLAVE;
+
+show slave status\G
+
+
+# https://dev.mysql.com/doc/refman/8.0/en/replica-logs-relaylog.html
+# можем настроить наш relay.log
+show variables like '%relay%';
+
+# посмотрим статусы репликации
+use performance_schema;
+show tables like '%replic%';
+show variables like '%log_bin%';
+show variables like '%binlog%';
+show variables like '%read%';
+
+# рекомендуется включать для слейва, иначе на слейве тоже можем вносить изменения
+# /etc/my.cnf
+innodb_read_only = 1
+
+
+

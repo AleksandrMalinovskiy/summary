@@ -1,0 +1,30 @@
+#!/bin/bash
+# Установка репозитория Oracle MySQL 8.0
+rpm -Uvh https://repo.mysql.com/mysql80-community-release-el7-5.noarch.rpm
+
+# Включаем репозиторий
+sed -i 's/enabled=1/enabled=0/' /etc/yum.repos.d/mysql-community.repo
+
+# Устанавливаем MySQL
+yum --enablerepo=mysql80-community install mysql-community-server
+
+# Запускаем
+systemctl start mysqld
+
+# Ставим в автозагрузку
+systemctl enable mysqld
+
+# Проверка портов
+ss -ntlp
+
+ps ax | grep mysqld
+
+# Потоки
+ps -eLf | grep mysqld
+
+read -p "Enter hostname " r
+# Ставим имя хоста
+hostnamectl set-hostname $r
+
+
+
