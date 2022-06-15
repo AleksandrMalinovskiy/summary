@@ -24,14 +24,14 @@ ____
 - [Git](/стек/Git);
 - [Python](https://stepik.org/course/58852/syllabus); 
 - Ansible; 
-- Nginx, Apache; 
+- [Nginx-Apache](/стек/Nginx-Apache/); 
 - [Docker](/стек/Docker);  
 - [Bash](/стек/bash); 
 - Prometheus, Grafana; 
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
-- Gitlab
-- [Docker-Compose] (/стек/Docker-compose-gitlab/trening-project/prachka/docker-compose.png);
+- [Gitlab](/стек/Gitlab/)
+- [Docker-Compose](/стек/Docker-compose-gitlab/trening-project/prachka/docker-compose.png);
 ____
 **Опыт работы (более 6 лет):**
   
