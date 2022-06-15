@@ -29,7 +29,9 @@ ____
 - [Bash](/стек/bash); 
 - Prometheus, Grafana; 
 - ELK;
-- [Сети(dunp, ip, iptables)](/стек/сети).
+- [Сети(dunp, ip, iptables)](/стек/сети);
+- Gitlab
+- [Docker-Compose] (/стек/Docker-compose-gitlab/trening-project/prachka/docker-compose.png);
 ____
 **Опыт работы (более 6 лет):**
   
