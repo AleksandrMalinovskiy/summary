@@ -1,0 +1,35 @@
+Задание:
+Поднять сервер на Debian 10 (файл Debian)
+Получить доменное имя alex.loldev.ru
+Поставить на сервер doker
+Поставить на сервер doker-composs
+Поставить на сервер Git runner и регистрировать его (файл Git runner)
+Взять фреймворк adonis создать у себя локально тестовый проект, используя докер
+Создать dockerfile (файл adonis-dockerfile)
+Создать docker compose (файл adonis-docker compose)
+Создать .gitlab-ci.yml  (файл adonis-gitlab-ci)
+Создать nginx.conf (файл adonis-nginx-conf)
+Создать .env (файл adonis-env)
+Запушить в гит этот проект (файл adonis)
+Настроить деплой на сервер 
+Взять фреймворк Nuxt создать у себя локально тестовый проект, используя докер
+Создать dockerfile (файл nuxt-dockerfile)
+Создать docker compose (файл nuxt-docker compose)
+Создать .gitlab-ci.yml  (файл nuxt-gitlab-ci)
+Создать .env (файл nuxt-env)
+Запушить в гит этот проект (файл nuxt)
+Настроить деплой на сервер 
+Добавить в конфиг nginx секецию, что бы nuxt открывался по http://alex.loldev.ru/api (файл nuxt-nginx.conf)
+Получить ssl сертифкат через утилиту certbot 
+Подключить полученный сертификат к alexm.loldev.ru (при входе на версию http должен сработать редирект на https) в nginx (файл nginx-conf)
+Добавить в cron команду для автоматического обновления сертификата
+
+Итог: 
+ На сервере в докере три контейнера: (файл docker)
+   - контейнер с тестовым проектом adonis
+   - контейнер с тестовым проектом nuxt
+   - контейнер nginx
+ При переходе на доменное имя alex.loldev.ru попадаем на adonis, а при переходе на alex.loldev.ru/api попадаем на nuxt. (файл alex.loldev.ru и alex.loldev.ru/api)
+ При входе на версию http должен сработать редирект на https. (файл alex.loldev.ru и alex.loldev.ru/api)
+
+
