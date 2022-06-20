@@ -21,17 +21,18 @@ ____
 **Навыки**\
 Владею следующим стеком технологий:
 - MySQL; 
-- [Git](/стек/Git/git.pdf);
+- [Github](/стек/Git/git.pdf);
+- [Gitlab](/стек/gitlab/gitlab.pdf)
 - [Python](https://stepik.org/course/58852/syllabus); 
 - Ansible; 
-- [Nginx-Apache](/стек/nginx-apache/ngnx-conf.png); 
+- [Nginx](/стек/nginx-apache/ngnx-conf.png);
+- Apache; 
 - [Docker](/стек/Docker/Docker.pdf);  
+- [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
 - [Bash](/стек/bash); 
 - Prometheus, Grafana; 
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
-- [Gitlab](/стек/gitlab/gitlab.pdf)
-- [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
 ____
 **Тренировочные проекты**
 - [Adonis-nuxt](/cтек/trening/Trening-project.pdf)
