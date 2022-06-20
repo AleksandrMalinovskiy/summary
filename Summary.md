@@ -35,7 +35,7 @@ ____
 - [Сети(dunp, ip, iptables)](/стек/сети);
 ____
 **Тренировочные проекты**
-- [Adonis-nuxt](/cтек/trening/Trening-project.pdf)
+- [Adonis-nuxt](/стек/trening/Trening-project.pdf)
 ____
 **Опыт работы (более 6 лет):**
   
