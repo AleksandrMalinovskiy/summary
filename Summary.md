@@ -31,7 +31,9 @@ ____
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
 - [Gitlab](/стек/gitlab/gitlab.pdf)
-- [Docker-Compose](стек/Docker/adonis-docker compose.png);
+- [Docker-Compose](/стек/Docker/adonis-docker compose.png);
+**Тренировочные проекты**\
+- [Adonis-nuxt](/cтек/trening/Trening-project.pdf)
 ____
 **Опыт работы (более 6 лет):**
   
