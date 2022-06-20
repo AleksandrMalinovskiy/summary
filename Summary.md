@@ -24,14 +24,14 @@ ____
 - [Git](/стек/Git/git.pdf);
 - [Python](https://stepik.org/course/58852/syllabus); 
 - Ansible; 
-- [Nginx-Apache](/стек/Nginx-Apache/nginx.conf.png); 
+- [Nginx-Apache](/стек/nginx-apache/ngnx-conf.png); 
 - [Docker](/стек/Docker/Docker.pdf);  
 - [Bash](/стек/bash); 
 - Prometheus, Grafana; 
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
 - [Gitlab](/стек/gitlab/gitlab.pdf)
-- [Docker-Compose](/стек/Docker/adonis-docker compose.png);
+- [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
 ____
 **Тренировочные проекты**
 - [Adonis-nuxt](/cтек/trening/Trening-project.pdf)
