@@ -32,6 +32,7 @@ ____
 - [Сети(dunp, ip, iptables)](/стек/сети);
 - [Gitlab](/стек/gitlab/gitlab.pdf)
 - [Docker-Compose](/стек/Docker/adonis-docker compose.png);
+____
 **Тренировочные проекты**\
 - [Adonis-nuxt](/cтек/trening/Trening-project.pdf)
 ____
