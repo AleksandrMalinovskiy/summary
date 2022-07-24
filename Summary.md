@@ -30,7 +30,11 @@ ____
 - [Docker](/стек/Docker/Docker.pdf);  
 - [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
 - [Bash](/стек/bash); 
-- Prometheus, Grafana; 
+- [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
+- [Graylog](/стек/graylog.pdf);
+- [Packer](/стек/packer/Packer.pdf);
+- [Terraform](/стек/terraform/terraform.pdf);
+- [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
 ____
