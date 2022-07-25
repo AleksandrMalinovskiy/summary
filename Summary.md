@@ -39,8 +39,8 @@ ____
 - [Сети(dunp, ip, iptables)](/стек/сети);
 ____
 **Тренировочные проекты**
-- [Adonis-nuxt](/стек/trening/Trening-project.pdf)
-- 
+- [Adonis-nuxt](/стек/trening/Trening-project.pdf);
+- [Laravel, Nginx и MySQL с Docker Compose](/стек/trening-laravel/laravel.pdf);
 ____
 **Опыт работы (более 6 лет):**
   
