@@ -20,26 +20,27 @@ ____
 ____
 **Навыки**\
 Владею следующим стеком технологий:
-- MySQL; 
-- [Github](/стек/Git/git.pdf);
-- [Gitlab](/стек/gitlab/gitlab.pdf)
 - [Python](https://stepik.org/course/58852/syllabus); 
-- Ansible; 
-- [Nginx](/стек/nginx-apache/ngnx-conf.png);
-- Apache; 
-- [Docker](/стек/Docker/Docker.pdf);  
-- [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
 - [Bash](/стек/bash); 
-- [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
-- [Graylog](/стек/graylog.pdf);
 - [Packer](/стек/packer/Packer.pdf);
 - [Terraform](/стек/terraform/terraform.pdf);
+- Ansible;
+- [Docker](/стек/Docker/Docker.pdf);  
+- [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
+- [Nginx](/стек/nginx-apache/ngnx-conf.png);
+- Apache; 
+- MySQL; 
+- [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
+- [Graylog](/стек/graylog.pdf);
+- [Github](/стек/Git/git.pdf);
+- [Gitlab](/стек/gitlab/gitlab.pdf)
 - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
 ____
 **Тренировочные проекты**
 - [Adonis-nuxt](/стек/trening/Trening-project.pdf)
+- 
 ____
 **Опыт работы (более 6 лет):**
   
