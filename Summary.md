@@ -37,6 +37,7 @@ ____
 - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
 - ELK;
 - [Сети(dunp, ip, iptables)](/стек/сети);
+- [OpenVpn](/стек/openvpn/openVpn.pdf);
 ____
 **Тренировочные проекты**
 - [Adonis-nuxt](/стек/trening/Trening-project.pdf);
