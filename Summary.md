@@ -31,7 +31,7 @@ ____
 - Apache; 
 - MySQL; 
 - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
-- [Graylog](/стек/graylog.pdf);
+- [Graylog](/стек/graylog/graylog.pdf);
 - [Github](/стек/Git/git.pdf);
 - [Gitlab](/стек/gitlab/gitlab.pdf)
 - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
