@@ -1,0 +1,42 @@
+Задание 1. Развернуть и настроить сервер с Nginx, MySQL, PHP (стек LEMP)
+Установка веб-сервера Nginx (2)
+Установка MySQL (3)
+Установка PHP (4)
+Редактирование конфига nginx (5)
+Создание тестого файла /var/www/laravel/index.html для проверки работы сайта (6) 
+Создание /var/www/laravel/info.php для тестирования PHP с помощью Nginx (7)
+Тестирование подключения к базе данных из PHP 
+- создал пользователя и тестовую таблицу в mysql (8)
+- создал скрипт PHP /var/www/laravel/todo_list.php, который будет подключаться к MySQL и запрашивать контент (9, 9.2)
+
+Задание 2. Установить и настроить новое тестовое приложение Laravel на сервере используя Composer для загрузки зависимостей инфраструктуры и управления ими и используя Nginx для обслуживания приложения.
+Доустановил необходимые модули PHP (php-mbstring, php-xml, php-bcmath)
+Создал базу данных для приложения (10)
+Создал новое приложения Laravel-travellist (11)
+Настроил Laravel в файле .env (12)
+Настроил Nginx (13) 
+Настроил главную страницу 
+- изменил файл основного маршрута /var/www/travellist/routes/web.php (14)
+- cоздал новый файл представления /var/www/travellist/resources/views/travellist.blade.php (15)
+Страница сайта с работающим приложением Laravel, извлекающее содержимое из базы данных MySQL (16)
+
+Задание 3. Развернуть и настроить сервер с Nginx, MySQL, PHP (стек LEMP) в Docker Compose
+- Директория (1)
+- docker-compose.yml (2 и 2.2)
+- phpdockerfile (3)
+- todo_list.php (4)
+- index.php (5)
+- nginx conf (6)
+- docker ps (7)
+- страница сайта laravel.loldev.ru (7)
+- страница сайта laravel.loldev.ru/todo_list.php (8)
+
+Задание 4. Настройка Laravel, Nginx и MySQL с Docker Compose
+- Директория (1)
+- docker-compose.yml (2 и 2.2)
+- phpdockerfile (3)
+- nginx conf (4)
+- docker ps (5)
+- страница сайта laravel.loldev.ru (6)
+ 
+
