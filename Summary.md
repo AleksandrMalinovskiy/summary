@@ -35,8 +35,7 @@ ____
 - [Packer](/стек/packer/Packer.pdf);
 - [Terraform](/стек/terraform/terraform.pdf);
 - Ansible;
-- [Docker](/стек/Docker/Docker.pdf);  
-- [Docker-Compose](/стек/Docker/adonis-docker-compose.png);
+- [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);  
 - [Nginx](/стек/nginx-apache/ngnx-conf.png);
 - Apache; 
 - MySQL; 
