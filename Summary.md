@@ -30,36 +30,36 @@ Gitlab CI, Kubernetes.\
 ____
 **Навыки**\
 Владею следующим стеком технологий:
-- Языки програмирования/Скриптовые языки:
+Языки програмирования/Скриптовые языки:
   - [Python](https://stepik.org/course/58852/syllabus); 
-  - [Bash](/стек/bash);\
-- Иструменты для создания образов виртуальных машин:
--- [Packer](/стек/packer/Packer.pdf);
+  - [Bash](/стек/bash);
+Иструменты для создания образов виртуальных машин:
+  - [Packer](/стек/packer/Packer.pdf);
 Инструменты управления инфоструктурой:
-- [Terraform](/стек/terraform/terraform.pdf);
+  - [Terraform](/стек/terraform/terraform.pdf);
 Инструменты управления конфигурациями:
-- [Ansible](/стек/Ansible/);
+  - [Ansible](/стек/Ansible/);
 Инструменты для контейнеризации и оркистрации:
-- [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);
+  - [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);
 Веб сервера:  
-- [Nginx](/стек/nginx-apache/ngnx-conf.png);
-- Apache; 
+  - [Nginx](/стек/nginx-apache/ngnx-conf.png);
+  - Apache; 
 Базы данных:
-- MySQL; 
-- Postgres;
-- Mongodb;
+  - MySQL; 
+  - Postgres;
+  - Mongodb;
 Инстументы системы мониторинга и сборов логов:
-- [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
-- [Graylog](/стек/graylog/graylog.pdf);
-- ELK;
+  - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
+  - [Graylog](/стек/graylog/graylog.pdf);
+  - ELK;
 Инструменты для управления репозиториями кода:
-- [Github](/стек/Git/git.pdf);
-- [Gitlab](/стек/gitlab/gitlab.pdf)
+  - [Github](/стек/Git/git.pdf);
+  - [Gitlab](/стек/gitlab/gitlab.pdf)
 Облачные платформы:
-- [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
+  - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
 Прочее:
-- [Сети(dunp, ip, iptables)](/стек/сети);
-- [OpenVpn](/стек/openvpn/openVpn.pdf);
+  - [Сети(dunp, ip, iptables)](/стек/сети);
+  - [OpenVpn](/стек/openvpn/openVpn.pdf);
 ____
 **Тренировочные проекты**
 - [Adonis-nuxt](/стек/trening/Trening-project.pdf);
