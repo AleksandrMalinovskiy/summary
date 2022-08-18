@@ -34,7 +34,7 @@ ____
 - [Bash](/стек/bash); 
 - [Packer](/стек/packer/Packer.pdf);
 - [Terraform](/стек/terraform/terraform.pdf);
-- Ansible;
+- [Ansible](/стек/Ansible/ansible.pdf);
 - [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);  
 - [Nginx](/стек/nginx-apache/ngnx-conf.png);
 - Apache; 
