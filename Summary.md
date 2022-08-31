@@ -39,7 +39,7 @@ ____
   - [Github](/стек/Git/git.pdf);
 - Инструменты CI/CD:
   - [Gitlab](/стек/gitlab/gitlab.pdf)
-  - [Jenkins](/стек.jenkins/Jenkins.pdf)
+  - [Jenkins](/стек/jenkins/Jenkins.pdf)
 - Облачные платформы:
   - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
 - Прочее:
