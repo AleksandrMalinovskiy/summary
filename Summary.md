@@ -37,7 +37,9 @@ ____
   - ELK;
 - Инструменты для управления репозиториями кода:
   - [Github](/стек/Git/git.pdf);
+- Инструменты CI/CD:
   - [Gitlab](/стек/gitlab/gitlab.pdf)
+  - [Jenkins](/стек.jenkins/jenkins.pdf)
 - Облачные платформы:
   - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
 - Прочее:
