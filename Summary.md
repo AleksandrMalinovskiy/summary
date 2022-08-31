@@ -34,7 +34,7 @@ ____
 - Инстументы системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
   - [Graylog](/стек/graylog/graylog.pdf);
-  - ELK;
+  - [ELK](/стек/ELK/ELK.pdf);
 - Инструменты для управления репозиториями кода:
   - [Github](/стек/Git/git.pdf);
 - Инструменты CI/CD:
