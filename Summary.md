@@ -53,7 +53,7 @@ ____
 **Опыт работы (более 6 лет):**
   
 <details>
-  <summary> Январь 2022 — даное время. Read Flag. Системный администратор Linux/DevOps engineer. </summary>
+  <summary> Январь 2022 — данное время. Read Flag. Системный администратор Linux/DevOps engineer. </summary>
   
 **Обязаности:**
 - Установка и настройка инструментов CI/CD;
