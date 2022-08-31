@@ -38,7 +38,7 @@ ____
 - Инструменты для управления репозиториями кода:
   - [Github](/стек/Git/git.pdf);
 - Инструменты CI/CD:
-  - [Gitlab](/стек/gitlab/gitlab.pdf)
+  - [Gitlab](/стек/gitlab/Gitlab.pdf)
   - [Jenkins](/стек/jenkins/Jenkins.pdf)
 - Облачные платформы:
   - [YandexCloud](/стек/yandexcloud/yandexCloud.pdf)
