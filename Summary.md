@@ -34,7 +34,7 @@ ____
   - [Nginx](/стек/nginx-apache/ngnx-conf.png);
   - Apache; 
 - Базы данных:
-  - MySQL; 
+  - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
   - Postgres;
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
