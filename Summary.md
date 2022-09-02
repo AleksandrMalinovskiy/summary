@@ -35,7 +35,7 @@ ____
   - Apache; 
 - Базы данных:
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
-  - [PostgreSQL];
+  - [PostgreSQL](/стек/postgresql/PostgreSQL.pdf);
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
