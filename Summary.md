@@ -31,7 +31,7 @@ ____
 - Инструменты для контейнеризации и оркистрации:
   - [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);
 - Веб сервера:  
-  - [Nginx](/стек/nginx-apache/ngnx-conf.png);
+  - [Nginx](/стек/nginx/Nginx.pdf);
   - Apache; 
 - Базы данных:
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
