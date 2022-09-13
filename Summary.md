@@ -32,7 +32,8 @@ ____
   - [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);
 - Веб сервера:  
   - [Nginx](/стек/nginx/Nginx.pdf);
-  - Apache; 
+  - [Apache](/стек/apache/Apache2.pdf);
+  - [Nginx (front-end) + Apache (back-end)](/стек/NginxApache/NginxApache.pdf)
 - Базы данных:
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
   - [PostgreSQL](/стек/postgresql/PostgreSQL.pdf);
