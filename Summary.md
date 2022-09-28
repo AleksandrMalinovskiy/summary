@@ -22,7 +22,7 @@ ____
 - Языки програмирования/Скриптовые языки:
   - [Python](https://stepik.org/course/58852/syllabus); 
   - [Bash](/стек/bash);
-- Иструменты для создания образов виртуальных машин:
+- Инструменты для создания образов виртуальных машин:
   - [Packer](/стек/packer/Packer.pdf);
 - Инструменты управления инфоструктурой:
   - [Terraform](/стек/terraform/terraform.pdf);
@@ -38,7 +38,7 @@ ____
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
   - [PostgreSQL](/стек/postgresql/PostgreSQL.pdf);
   - Mongodb;
-- Инстументы системы мониторинга и сборов логов:
+- Инструменты системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
   - [Graylog](/стек/graylog/graylog.pdf);
   - [ELK](/стек/ELK/ELK.pdf);
