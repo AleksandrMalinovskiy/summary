@@ -34,6 +34,8 @@ ____
   - [Nginx](/стек/nginx/Nginx.pdf);
   - [Apache](/стек/apache/Apache2.pdf);
   - [Nginx (front-end) + Apache (back-end)](/стек/NginxApache/NginxApache.pdf)
+- Балансировщик нагрузки:
+  - [Haproxy - nginx](/стек/haproxy/haproxy.pdf);
 - Базы данных:
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
   - [PostgreSQL](/стек/postgresql/PostgreSQL.pdf);
