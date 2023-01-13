@@ -42,6 +42,7 @@ ____
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
+  - - [Prometheus, alertmanager] (/стек/Prometheus_Grafana/prometheus-alertmanager.pdf);
   - [Graylog](/стек/graylog/graylog.pdf);
   - [ELK](/стек/ELK/ELK.pdf);
 - Инструменты для управления репозиториями кода:
