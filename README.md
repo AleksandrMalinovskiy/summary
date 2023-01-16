@@ -29,6 +29,7 @@ ____
 - Инструменты управления конфигурациями:
   - [Ansible](/стек/Ansible/);
 - Инструменты для контейнеризации и оркистрации:
+  - [Kubernetes](стек/k8s/k8s-1.pdf);
   - [Docker/Docker-compose/Docker-machine](/стек/Docker/Docker.pdf);
 - Веб сервера:  
   - [Nginx](/стек/nginx/Nginx.pdf);
