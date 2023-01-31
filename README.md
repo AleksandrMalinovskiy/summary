@@ -42,7 +42,7 @@ ____
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
   - Postgres:
      - [PostgreSQL настройка репликации](/стек/postgresql/PostgreSQL.pdf);
-     - [PostgreSQL-patroni-pgbouncer настройка и разворот кластера](/стек/postgresql/psql-claster.pdf);
+     - [PostgreSQL-Patroni-PGbouncer-Haproxy настройка и разворот кластера](/стек/postgresql/psql-claster.pdf);
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
