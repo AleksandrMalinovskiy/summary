@@ -40,7 +40,9 @@ ____
   - [Haproxy](/стек/haproxy/Haproxy.pdf);
 - Базы данных:
   - [MariaDB/MySQL](/стек/mariadb/MariaDB.pdf); 
-  - [PostgreSQL](/стек/postgresql/PostgreSQL.pdf);
+  - Postgres:
+     - [PostgreSQL настройка репликации](/стек/postgresql/PostgreSQL.pdf);
+     - [PostgreSQL-patroni-pgbouncer настройка и разворот кластера](/стек/postgresql/psql-claster.pdf);
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
