@@ -43,6 +43,9 @@ ____
   - Postgres:
      - [PostgreSQL настройка репликации](/стек/postgresql/PostgreSQL.pdf);
      - [PostgreSQL-Patroni-PGbouncer-Haproxy настройка и разворот кластера](/стек/postgresql/psql-claster.pdf);
+  - Redis:
+     - [Redis.Replication Master-Slave](/стек/redis/redis.pdf)
+     - [Redis.Cluster](/стек/redis/redis-cluster.pdf)
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
   - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
