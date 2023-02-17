@@ -49,9 +49,14 @@ ____
      - [Redis.Cluster](/стек/redis/redis-cluster.pdf)
   - Mongodb;
 - Инстументы системы мониторинга и сборов логов:
-  - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
+  - Prometheus;
+    - [Prometheus, Grafana](/стек/Prometheus_Grafana/grafana.pdf);
     - [Prometheus, alertmanager](/стек/Prometheus_Grafana/prometheus-alertmanager.pdf);
+  - Zabbix;
+    - [Zabbix/Monitoring server and sites](/стек/zabbix/zabbix1.pdf);
+    - [Zabbix/Monitoring Docker and alerting Telegram](/стек/zabbix/zabbix2.pdf);
   - [Graylog](/стек/graylog/graylog.pdf);
+  - [Loki,Grafana](/стек/loki/grafana-loki.pdf);
   - [ELK](/стек/ELK/ELK.pdf);
 - Инструменты для управления репозиториями кода:
   - [Github](/стек/Git/git.pdf);
