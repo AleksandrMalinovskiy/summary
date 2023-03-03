@@ -21,7 +21,7 @@ ____
 Владею следующим стеком технологий:
 - Языки програмирования/Скриптовые языки:
   - [Python](https://stepik.org/course/58852/syllabus); 
-  - [Bash](/стек/bash);
+  - [Bash](AleksandrMalinovskiy/admins-script);
 - Иструменты для создания образов виртуальных машин:
   - [Packer](/стек/packer/Packer.pdf);
 - Инструменты управления инфоструктурой:
